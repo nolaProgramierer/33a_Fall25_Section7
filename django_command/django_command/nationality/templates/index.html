@@ -1,0 +1,8 @@
+<h2>Django Management Command Demo</h2>
+<h4>Estimation of nationality according to Surname</h4>
+
+<ul>
+    {% for nationality in nationalities %}
+    <li>Country ID: {{nationality.country_id}}, Probability: {{nationality.probability}}</li>
+    {% endfor %}
+</ul>
